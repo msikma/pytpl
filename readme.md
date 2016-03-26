@@ -46,6 +46,36 @@ available from any working directory, as long as your virtual environment
 is activated.
 
 
+Publishing to PyPI
+------------------
+
+[PyPI](https://pypi.python.org/pypi) is the standard Python module repository.
+As a general rule of thumb, if what you're making could be useful to other
+people, you should publish it there.
+
+To learn how to publish to PyPI, you need to set up an account there.
+Read [the tutorial by Peter Downs](http://peterdowns.com/posts/first-time-with-pypi.html)
+for more information.
+
+When you're set up, you first need to register the package name with the
+following command:
+
+    $ ./setup.py register
+
+Then you can publish whenever you have a new version:
+
+    $ ./setup.py sdist upload
+
+Make sure to bump the version properly. Strictly speaking, the version number
+needs to comply with [PEP386](https://www.python.org/dev/peps/pep-0386/), but
+it's strongly recommended that you follow [semver](http://semver-ftw.org/)
+conventions.
+
+Just to show how useful PyPI is, we're including one external module in our
+dependencies list—see `setup.py`. This module is automatically downloaded
+and activated inside our virtual environment when we run `./setup.py develop`.
+
+
 Copyright
 ---------
 
