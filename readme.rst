@@ -111,7 +111,7 @@ Copyright
 
 Copyright © 2016, Michiel Sikma
 
-MIT licensed. See ``copyright.md`` for more information. Feel free to
+MIT licensed. See ``copyright.rst`` for more information. Feel free to
 copy this template for your own purposes.
 
 .. _PyPI: https://pypi.python.org/pypi
