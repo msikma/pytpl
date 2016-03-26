@@ -14,7 +14,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='pytpl',
-    version='1.0.0',
+    version='1.0.1',
     description='Template for developing Python applications or scripts',
     long_description=(
         'Template designed to make it easy to start developing a Python '
