@@ -14,13 +14,14 @@ from setuptools import setup, find_packages
 
 setup(
     name='pytpl',
-    version='1.0.1',
+    version='1.0.2',
     description='Template for developing Python applications or scripts',
     long_description=(
         'Template designed to make it easy to start developing a Python '
         'application or script with best practices. Includes a proper '
         'example of setup.py.'
     ),
+    url='https://github.com/msikma/pytpl',
     author='Michiel Sikma',
     author_email='michiel@sikma.org',
     license='MIT',

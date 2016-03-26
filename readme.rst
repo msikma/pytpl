@@ -51,6 +51,24 @@ If you properly installed the package using ``setup.py``, it should be
 globally available from any working directory, as long as your virtual
 environment is activated.
 
+Unit tests
+----------
+
+Every good package should have unit tests. An example is included. The
+``setup.py`` file contains a reference to the test suite, which has module
+name ``pytpl.tests``. There are two ways to run the unit tests—either via
+``setup.py``:
+
+::
+
+    $ ./setup.py test
+
+Or manually by invoking Python:
+
+::
+
+    $ python -m unittest discover -v pytpl/tests
+
 Publishing to PyPI
 ------------------
 
