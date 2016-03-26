@@ -1,6 +1,11 @@
 Python Template
 ===============
 
+|PyPI version|
+
+.. |PyPI version| image:: https://badge.fury.io/py/pytpl.svg
+   :target: https://pypi.python.org/pypi/pytpl
+
 This is a minimalist template for writing Python applications. It’s
 designed so you can quickly start developing, with the intent to
 eventually publish on `PyPI`_. It uses ``setuptools`` to facilitate
