@@ -18,7 +18,7 @@ Usage
 
 To get started, you’ll need two things. First, make sure you’ve got
 ``pip`` installed (it’s included in a standard Python install from the
-`official website`_). Also, make sure you’ve got a *`virtual environment`_*
+`official website`_). Also, make sure you’ve got a `virtual environment`_
 set up.
 
 When developing a ``setup.py`` application, run the following to get
